@@ -1,5 +1,5 @@
 // Variables útiles 
-// Precio base de la cotización, en quetzales, lo puede cambiar
+// Precio base de la cotización
 var precio_base = 2000;
 
 // Valores de los recargos 
@@ -47,7 +47,6 @@ if ("SI" == hijos.toUpperCase()) {
   cantidad_hijos = parseInt(cantidad_hijos); // Convertimos a número
 }
 
-// Aquí debe calcular el recargo total basado en las respuestas ingresadas
 
 // Recargo por edad del asegurado
 if (edad_numero >= 18 && edad_numero < 25) {
